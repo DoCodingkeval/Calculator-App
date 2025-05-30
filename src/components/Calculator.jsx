@@ -85,8 +85,8 @@ const Calculator = () => {
             return (
               <button
                 key={index}
-                className={`h-[9vh] w-[9vw] cursor-pointer max-sm:h-14 max-sm:w-14
-                  rounded-lg last:w-[35vw] md:last:w-[26vw] ${btnstyle}`}
+                className={`h-[9vh] w-[9vw] cursor-pointer max-sm:h-14 max-sm:w-15
+                  rounded-lg last:w-[36vw] md:last:w-[26vw] ${btnstyle}`}
                 onClick={() => handleInputChange(item)}
               >
                 {item}
