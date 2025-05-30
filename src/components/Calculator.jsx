@@ -49,7 +49,7 @@ const Calculator = () => {
     md:w-[70vw] md:m-auto
     "
     >
-      <div className="main bg-white max-sm:w-full max-sm:h-130 rounded-4xl border-2 p-5">
+      <div className="main bg-white max-sm:w-full max-sm:h-138 rounded-4xl border-2 p-5">
         <div className="w-full flex items-center h-35 overflow-hidden rounded-2xl border-8 border-black bg-[#6F96B3] text-7xl text-white">
           <input
             className="w-full text-right outline-none truncate"
@@ -85,7 +85,8 @@ const Calculator = () => {
             return (
               <button
                 key={index}
-                className={`h-[9vh] w-[9vw] cursor-pointer max-sm:h-12 max-sm:w-12 rounded-lg last:w-[32vw] md:last:w-[26vw] ${btnstyle}`}
+                className={`h-[9vh] w-[9vw] cursor-pointer max-sm:h-14 max-sm:w-14
+                  rounded-lg last:w-[35vw] md:last:w-[26vw] ${btnstyle}`}
                 onClick={() => handleInputChange(item)}
               >
                 {item}
